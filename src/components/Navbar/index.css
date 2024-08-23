@@ -1,0 +1,44 @@
+.flex {
+    display: flex;
+    gap: 1rem;
+}
+
+
+
+.navbar_Container {
+    color: white;
+    position: relative;
+    background-image: url("../../../public/CenaThroughTheAges.bmp");
+    width: 100%;
+    height: 1100px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+    
+.first-navbar {
+    background-color: black;
+    display: flex;
+    gap: 2rem;
+    padding: 2rem 4rem;
+    justify-content: end;
+    margin-bottom: .5rem;
+} 
+
+.first-navbar h2:hover {
+    text-decoration: underline;
+}
+
+.second-navbar {
+    background-color: purple;
+    display: flex;
+    gap: 20px;
+    padding: 2rem 4rem;
+    justify-content: space-between;
+} 
+
+.second-navbar h2:hover {
+    color: aquamarine;
+}
